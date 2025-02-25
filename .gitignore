@@ -1,0 +1,7 @@
+.vscode/
+ValetParkingAPI/bin/
+ValetParkingAPI/obj/
+ValetParkingBLL/bin/
+ValetParkingBLL/obj/
+ValetParkingDAL/bin/
+ValetParkingDAL/obj/
