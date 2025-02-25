@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ValetParkingDAL\ValetParkingDAL.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+   <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="AWSSDK.SQS" Version="3.7.200.43" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.0" />
+    <PackageReference Include="Braintree" Version="5.12.0" />
+    <PackageReference Include="MailKit" Version="2.8.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="3.1.0" />
+   
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
+   
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+   
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+   
+    <PackageReference Include="Sendgrid" Version="9.23.2" />
+   
+    <PackageReference Include="Square" Version="13.0.0" />
+   
+    <PackageReference Include="Stripe.net" Version="39.61.0" />
+    
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.7.1" />
+    <PackageReference Include="Twilio" Version="5.61.1" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.3.12" />
+    
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+
+</Project>

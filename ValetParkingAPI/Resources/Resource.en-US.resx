@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountInactive" xml:space="preserve">
+    <value>Your account is Inactive</value>
+  </data>
+  <data name="AccountNotVerified" xml:space="preserve">
+    <value>Your account is not verified. Please contact support</value>
+  </data>
+  <data name="AcknowledgementSent" xml:space="preserve">
+    <value>Message sent successfully.</value>
+  </data>
+  <data name="AddDamageVehicle" xml:space="preserve">
+    <value>Damaged vehicle added successfully.</value>
+  </data>
+  <data name="AddGuestUser" xml:space="preserve">
+    <value>Guest added successfully.</value>
+  </data>
+  <data name="AddParkingBusinessOwner" xml:space="preserve">
+    <value>Parking business owner added successfully.</value>
+  </data>
+  <data name="AddParkingLocation" xml:space="preserve">
+    <value>Parking location added successfully.</value>
+  </data>
+  <data name="AddStaff" xml:space="preserve">
+    <value>Staff added successfully.</value>
+  </data>
+  <data name="AddSuccessful" xml:space="preserve">
+    <value>Added Successfully.</value>
+  </data>
+  <data name="AdminBaseUrl" xml:space="preserve">
+    <value>http://admin.flixvalet.com</value>
+  </data>
+  <data name="AlreadyParkedandExited" xml:space="preserve">
+    <value>This booking is already completed for today. The vehicle entered {0} and left {1}</value>
+  </data>
+  <data name="AppVersionMessage" xml:space="preserve">
+    <value>App has been updated to version {0} and you are using an old version. Please upgrade to the latest.</value>
+  </data>
+  <data name="AppVersionNameRequired" xml:space="preserve">
+    <value>AppVersionName and AppVersionCode are required</value>
+  </data>
+  <data name="AtleastOneFieldRequired" xml:space="preserve">
+    <value>Atleast one field must be passed from Vehicle Number and Customer Name</value>
+  </data>
+  <data name="BaseUrl" xml:space="preserve">
+    <value>https://flixvalet.com</value>
+  </data>
+  <data name="BookingConfirmedMsgToCustomer" xml:space="preserve">
+    <value>Your booking is confirmed with vehicle {0} from {1} to {2}</value>
+  </data>
+  <data name="BookingConfirmedMsgToValet" xml:space="preserve">
+    <value>New booking confirmed with vehicle {0} from {1} to {2}</value>
+  </data>
+  <data name="BookingConfirmedTitleToCustomer" xml:space="preserve">
+    <value>Booking Confirmed</value>
+  </data>
+  <data name="BookingConfirmedTitleToValet" xml:space="preserve">
+    <value>New {0} Booking - {1}</value>
+  </data>
+  <data name="BookingIdRequired" xml:space="preserve">
+    <value>Booking ID  required.</value>
+  </data>
+  <data name="BookingMessage" xml:space="preserve">
+    <value>Entering before {0} at {2},entering after {0} at {3}, leaving after {1} at {3}, or parking for more than {4} will trigger additional charges. Oversized Vehicle fees may be charged on-site depending on vehicle type (SUVs,Vans/Trucks/etc).</value>
+  </data>
+  <data name="BookingNotFound" xml:space="preserve">
+    <value>Booking not found.</value>
+  </data>
+  <data name="BookParkingLocation" xml:space="preserve">
+    <value>Parking location booked successfully.</value>
+  </data>
+  <data name="CameraIdRequired" xml:space="preserve">
+    <value>CameraId is required</value>
+  </data>
+  <data name="CameraSettingsAdded" xml:space="preserve">
+    <value>Camera settings added successfully</value>
+  </data>
+  <data name="CameraSettingsUpdated" xml:space="preserve">
+    <value>Camera settings updated successfully</value>
+  </data>
+  <data name="CancelBooking" xml:space="preserve">
+    <value>Your parking for vehicle {0} from {1} to {2} has been cancelled successfully and refund process has been initiated.</value>
+  </data>
+  <data name="CancelBookingv1" xml:space="preserve">
+    <value>Booking has been cancelled. Refund has been initiated.</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Password has been changed successfully.</value>
+  </data>
+  <data name="CheckIn" xml:space="preserve">
+    <value>Checked-in Successful.</value>
+  </data>
+  <data name="CheckOut" xml:space="preserve">
+    <value>Checked-Out Successful.</value>
+  </data>
+  <data name="CouldntloadImg" xml:space="preserve">
+    <value>Could not load image.</value>
+  </data>
+  <data name="CustomerAdded" xml:space="preserve">
+    <value>Customer Information added successfully.</value>
+  </data>
+  <data name="CustomerAddressAdd" xml:space="preserve">
+    <value>Address added successfully</value>
+  </data>
+  <data name="CustomerAddressUpdate" xml:space="preserve">
+    <value>Address updated successfully</value>
+  </data>
+  <data name="CustomerAndLocationIdRequired" xml:space="preserve">
+    <value>CustomerInfoId and ParkingLocationId are required</value>
+  </data>
+  <data name="CustomerEnterMessage" xml:space="preserve">
+    <value>Your have successfully entered for your {0} booking at location {1} {2}. Leaving after {3} or parking for more than {4} will trigger additional charges.{5}</value>
+  </data>
+  <data name="CustomerIdRequired" xml:space="preserve">
+    <value>Customer ID required.</value>
+  </data>
+  <data name="CustomerNotFound" xml:space="preserve">
+    <value>Customer not found</value>
+  </data>
+  <data name="CustomerUpdated" xml:space="preserve">
+    <value>Customer details updated sucessfully</value>
+  </data>
+  <data name="DamageIdRequired" xml:space="preserve">
+    <value>DamageVehicleId is required</value>
+  </data>
+  <data name="DateRangeError" xml:space="preserve">
+    <value>End date must be after start date</value>
+  </data>
+  <data name="DateRequired" xml:space="preserve">
+    <value>Date field is required.</value>
+  </data>
+  <data name="DeleteSuccessful" xml:space="preserve">
+    <value>Deleted Successfully.</value>
+  </data>
+  <data name="DepositPaymentStatus" xml:space="preserve">
+    <value>{0} amount deposited.</value>
+  </data>
+  <data name="EBExittimeMissing" xml:space="preserve">
+    <value>Early bird exit by time is required.</value>
+  </data>
+  <data name="EBFromtimeMissing" xml:space="preserve">
+    <value>Early bird enter from time is required.</value>
+  </data>
+  <data name="EBTotimeMissing" xml:space="preserve">
+    <value>Early bird enter to time is required.</value>
+  </data>
+  <data name="ElectronicLinkSuccess" xml:space="preserve">
+    <value> Payment link has been sent to registered number</value>
+  </data>
+  <data name="EmailOrPasswordIncorrect" xml:space="preserve">
+    <value>Email or password is incorrect</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>Email is required</value>
+  </data>
+  <data name="EmailVerified" xml:space="preserve">
+    <value>Your Email ID has been verified successfully.</value>
+  </data>
+  <data name="EnterAndExitDateTime" xml:space="preserve">
+    <value>Exit time cannot be equal or less than entry time.</value>
+  </data>
+  <data name="EnterAndExitTime" xml:space="preserve">
+    <value>Exit Before time should be greater than Entry time.</value>
+  </data>
+  <data name="EnterFromTime" xml:space="preserve">
+    <value>Enter From Time can not be less than Enter To Time</value>
+  </data>
+  <data name="EnterToLocation" xml:space="preserve">
+    <value>Entered Successfully.</value>
+  </data>
+  <data name="EPMessage" xml:space="preserve">
+    <value>Your {0} booking has been confirmed.Please find booking details below :/nEnter by : {1}/nExit by : {2}/nExit by : {2}/nExit by : {2}/nExit by : {2}/nExit by : {2}/nExit by : {2}</value>
+  </data>
+  <data name="ExitByTime" xml:space="preserve">
+    <value>Exit by time is less than From/To time</value>
+  </data>
+  <data name="ExitFromLocation" xml:space="preserve">
+    <value>Exited Successfully.</value>
+  </data>
+  <data name="ExtraChargesApplied" xml:space="preserve">
+    <value>Additional charges applied</value>
+  </data>
+  <data name="ExtraChargesNotApplied" xml:space="preserve">
+    <value>No additional charges applied.</value>
+  </data>
+  <data name="FilterRequired" xml:space="preserve">
+    <value>Filter field is required.</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Please check your email for password reset instructions.</value>
+  </data>
+  <data name="GuestUser" xml:space="preserve">
+    <value>Guest user could not be added</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Please select an image for upload.</value>
+  </data>
+  <data name="ImageUploaded" xml:space="preserve">
+    <value>Image uploaded successfully</value>
+  </data>
+  <data name="InvalidEndDate" xml:space="preserve">
+    <value>Invalid EndDate</value>
+  </data>
+  <data name="InvalidEndTime" xml:space="preserve">
+    <value>Invalid EndTime</value>
+  </data>
+  <data name="InValidLicenseExpiry" xml:space="preserve">
+    <value>Invalid licence expiry date</value>
+  </data>
+  <data name="InvalidStartDate" xml:space="preserve">
+    <value>Invalid StartDate</value>
+  </data>
+  <data name="InvalidStartTime" xml:space="preserve">
+    <value>Invalid StartTime</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Invalid token</value>
+  </data>
+  <data name="IsEnterBookingFailed" xml:space="preserve">
+    <value>This Vehicle is already parked.</value>
+  </data>
+  <data name="IsExitBookingFailed" xml:space="preserve">
+    <value>This Vehicle is not parked yet.</value>
+  </data>
+  <data name="LastDepositedMessage" xml:space="preserve">
+    <value>Last deposit of {0} on {1}</value>
+  </data>
+  <data name="LocationCameraIdRequired" xml:space="preserve">
+    <value>LocationCameraId is required</value>
+  </data>
+  <data name="LocationDetailsNotFound" xml:space="preserve">
+    <value>Location details could not be found.</value>
+  </data>
+  <data name="LocationNotFound" xml:space="preserve">
+    <value>Location not found</value>
+  </data>
+  <data name="LocationRates" xml:space="preserve">
+    <value>Please provide atleast one location rates per duration</value>
+  </data>
+  <data name="LocationTiming" xml:space="preserve">
+    <value>Please provide atleast one location timings</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>You are successfully logged in</value>
+  </data>
+  <data name="MobileRequired" xml:space="preserve">
+    <value>Mobile Number is required.</value>
+  </data>
+  <data name="ModeOfSearch" xml:space="preserve">
+    <value>Please provide mode of search for bookings e.g. upcoming/past</value>
+  </data>
+  <data name="MonthlyBooking30DayDiffError" xml:space="preserve">
+    <value>30 days interval is mandatory for monthly booking</value>
+  </data>
+  <data name="NoAdditionalCharges" xml:space="preserve">
+    <value>No additional charges applied.</value>
+  </data>
+  <data name="NoBooking" xml:space="preserve">
+    <value>No Booking found.</value>
+  </data>
+  <data name="NoCashStatus" xml:space="preserve">
+    <value>No cash collected</value>
+  </data>
+  <data name="NoDues" xml:space="preserve">
+    <value>No due amount</value>
+  </data>
+  <data name="NoRequestInitiated" xml:space="preserve">
+    <value>No request initiated</value>
+  </data>
+  <data name="NotificationAdded" xml:space="preserve">
+    <value>Notification added successfully.</value>
+  </data>
+  <data name="NotificationCustDisabled" xml:space="preserve">
+    <value>Notification is not enabled for this customer</value>
+  </data>
+  <data name="NotificationDisabled" xml:space="preserve">
+    <value>Notification is not enabled at this location</value>
+  </data>
+  <data name="NotificationFailed" xml:space="preserve">
+    <value>There was a problem sending notification</value>
+  </data>
+  <data name="NotificationModeUpdate" xml:space="preserve">
+    <value>Notification mode updated successfully.</value>
+  </data>
+  <data name="NotificationSent" xml:space="preserve">
+    <value>Request for vehicle sent successfully</value>
+  </data>
+  <data name="NotificationsNotFound" xml:space="preserve">
+    <value>Notifications not found.</value>
+  </data>
+  <data name="NotificationUpdated" xml:space="preserve">
+    <value>Notification updated successfully.</value>
+  </data>
+  <data name="NoUpcomingBookings" xml:space="preserve">
+    <value>No Upcoming Bookings.</value>
+  </data>
+  <data name="NoVehicleIsParked" xml:space="preserve">
+    <value>No Vehicle is parked yet.</value>
+  </data>
+  <data name="NoVehicleParked" xml:space="preserve">
+    <value>No vehicle parked.</value>
+  </data>
+  <data name="NPRecognitionError" xml:space="preserve">
+    <value>Unable to recognize number plate.</value>
+  </data>
+  <data name="OTP" xml:space="preserve">
+    <value>OTP has been sent to provided mobile number</value>
+  </data>
+  <data name="OwnerActiveInactiveMessage" xml:space="preserve">
+    <value>Owner {0} successfully.</value>
+  </data>
+  <data name="OwnerAndUserRequired" xml:space="preserve">
+    <value>ParkingBuisnessOwnerId and UserId are required</value>
+  </data>
+  <data name="ParkingBusinessOwnerIdRequired" xml:space="preserve">
+    <value>ParkingBusinessOwnerId is required</value>
+  </data>
+  <data name="ParkingLocationIdRequired" xml:space="preserve">
+    <value>ParkingLocationId is required</value>
+  </data>
+  <data name="PaymentSettingsAdded" xml:space="preserve">
+    <value>Payment settings added successfully</value>
+  </data>
+  <data name="PaymentSettingsUpdated" xml:space="preserve">
+    <value>Payment settings updated successfully</value>
+  </data>
+  <data name="PaymentSuccessful" xml:space="preserve">
+    <value>Payment Successful</value>
+  </data>
+  <data name="PaymentUnsuccessful" xml:space="preserve">
+    <value>Payment Unsuccessful</value>
+  </data>
+  <data name="ProfileUploadSuccessful" xml:space="preserve">
+    <value>Profile picture uploaded successfully</value>
+  </data>
+  <data name="RecordNotFound" xml:space="preserve">
+    <value>No record found</value>
+  </data>
+  <data name="RegisterSuccessful" xml:space="preserve">
+    <value>Congratulations, you are now registered with the App. Confirmation mail has been sent to your registered email ID.</value>
+  </data>
+  <data name="RequestAccepted" xml:space="preserve">
+    <value>Request accepted successfully.</value>
+  </data>
+  <data name="RequestSuccessful" xml:space="preserve">
+    <value>Successful.</value>
+  </data>
+  <data name="RequestVehicleMessage" xml:space="preserve">
+    <value>{0} requested for vehicle {1} at location {2}.</value>
+  </data>
+  <data name="RequestVehicleTitle" xml:space="preserve">
+    <value>Vehicle Requested.</value>
+  </data>
+  <data name="ResendOTP" xml:space="preserve">
+    <value>OTP resend successfully</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Password reset successfully</value>
+  </data>
+  <data name="RoleExist" xml:space="preserve">
+    <value>Role {0} already exist</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Password set successfully.</value>
+  </data>
+  <data name="StartTimeAndEndTimeError" xml:space="preserve">
+    <value>StartTime and EndTime could not be same</value>
+  </data>
+  <data name="TigerQRNotGenerated" xml:space="preserve">
+    <value>QR could not be generated due to some issues.Try later.</value>
+  </data>
+  <data name="UnableToBook" xml:space="preserve">
+    <value>Unable to book right now</value>
+  </data>
+  <data name="UpdateDamageVehicle" xml:space="preserve">
+    <value>Damaged vehicle updated successfully.</value>
+  </data>
+  <data name="UpdateGuestUser" xml:space="preserve">
+    <value>GuestUser Updated Successfully.</value>
+  </data>
+  <data name="UpdateParkingBusinessOwner" xml:space="preserve">
+    <value>Parking business owner updated successfully.</value>
+  </data>
+  <data name="UpdateParkingLocation" xml:space="preserve">
+    <value>Parking location updated successfully.</value>
+  </data>
+  <data name="UpdateProfile" xml:space="preserve">
+    <value>Profile updated successfully</value>
+  </data>
+  <data name="UpdateStaff" xml:space="preserve">
+    <value>Staff updated successfully.</value>
+  </data>
+  <data name="UpdateSuccessful" xml:space="preserve">
+    <value>Updated Successfully.</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Application is up-to-date</value>
+  </data>
+  <data name="UserExist" xml:space="preserve">
+    <value>User already registered.</value>
+  </data>
+  <data name="UserIdRequired" xml:space="preserve">
+    <value>UserId is required</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="VehicleAdded" xml:space="preserve">
+    <value>Vehicle added successfully.</value>
+  </data>
+  <data name="VehicleAlreadyExited" xml:space="preserve">
+    <value>The Vehicle already exited.</value>
+  </data>
+  <data name="VehicleAlreadyRegistered" xml:space="preserve">
+    <value>This vehicle is already registered.</value>
+  </data>
+  <data name="VehicleArrivalMessage" xml:space="preserve">
+    <value>Vehicles Arrived at location : {0}</value>
+  </data>
+  <data name="VehicleDeleteSuccessful" xml:space="preserve">
+    <value>Vehicle deleted successfully</value>
+  </data>
+  <data name="VehicleDepartureMessage" xml:space="preserve">
+    <value>Vehicles Departing from location : {0}</value>
+  </data>
+  <data name="VehicleIdRequired" xml:space="preserve">
+    <value>VehicleId is required</value>
+  </data>
+  <data name="VehicleNumberRequired" xml:space="preserve">
+    <value>VehicleNumber is required</value>
+  </data>
+  <data name="VehicleUpdated" xml:space="preserve">
+    <value>Vehicle updated successfully.</value>
+  </data>
+  <data name="VerifyOtp" xml:space="preserve">
+    <value>User verified.</value>
+  </data>
+  <data name="VerifyOtpFailed" xml:space="preserve">
+    <value>OTP is incorrect</value>
+  </data>
+  <data name="WhiteListCustomerAdded" xml:space="preserve">
+    <value>WhiteList customer added successfully</value>
+  </data>
+  <data name="WhiteListCustomerUpdated" xml:space="preserve">
+    <value>WhiteList customer updated successfully</value>
+  </data>
+  <data name="EmployeeAdded" xml:space="preserve">
+    <value>Employee added successfully</value>
+  </data>
+  <data name="EmployeeUpdated" xml:space="preserve">
+    <value>Employee updated successfully</value>
+  </data>
+  <data name="BusinessOfficeAdded" xml:space="preserve">
+    <value>Business office added successfully</value>
+  </data>
+  <data name="BusinessOfficeUpdated" xml:space="preserve">
+    <value>Business office updated successfully</value>
+  </data>
+  <data name="BusinessOfficeIdRequired" xml:space="preserve">
+    <value>Business office id required</value>
+  </data>
+  <data name="BusinessOfficeEmployeeExists" xml:space="preserve">
+    <value>Business office employee already exists</value>
+  </data>
+  <data name="UpdateOfficeEmployeePayment" xml:space="preserve">
+    <value>Payment updated successfully.</value>
+  </data>
+  <data name="GateSettingsAdded" xml:space="preserve">
+    <value>Gate settings added successfully.</value>
+  </data>
+  <data name="GateSettingsUpdated" xml:space="preserve">
+    <value>Gate settings updated successfully</value>
+  </data>
+  <data name="GateOpenSuccess" xml:space="preserve">
+    <value>Gate Opened successfully</value>
+  </data>
+  <data name="MonthlyBookingMessage" xml:space="preserve">
+    <value>Entering before {0} at {2}, leaving after {1} at {3}, or parking for more than {4} will trigger additional charges. Oversized Vehicle fees may be charged on-site depending on vehicle type (SUVs,Vans/Trucks/etc).</value>
+  </data>
+	<data name="PricingPlanIdRequired" xml:space="preserve">
+    <value>PricingPlanId is required</value>
+	  </data>
+	<data name="NFExittimeMissing" xml:space="preserve">
+    <value>Night fare exit by time is required.</value>
+  </data>
+	<data name="NFFromtimeMissing" xml:space="preserve">
+    <value>Night fare enter from time is required.</value>
+  </data>
+	<data name="NFTotimeMissing" xml:space="preserve">
+    <value>Night fare enter to time is required.</value>
+  </data>
+</root>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\Projects\FlixValetAPI\flixvalet_api\ValetParkingAPI\bin\Release\netcoreapp3.1\publish\</_PublishTargetUrl>
+    <History>True|2024-11-25T10:49:24.5481535Z;True|2024-11-11T15:34:04.9975528+05:30;True|2024-11-11T15:12:35.3700663+05:30;True|2024-11-11T15:12:20.1615308+05:30;True|2024-11-08T17:02:42.9152803+05:30;True|2024-06-18T16:29:05.8070758+05:30;True|2024-06-17T18:57:19.7700815+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
